@@ -1,13 +1,12 @@
-,[----- -----  ----- -----  ----- -----  ----- -----  ----- --->,]
->+<<
+,[----- -----  ----- -----  ----- -----  ----- -----  ----- --->,]	Load input as integers
+<[<]>>												Move to c1
 
-[
-    [[>]> + << -]											Add 1p
-    <													
+[													
+	<                                               Move to left most non-zero
     [
-        -												Subtract 1 from p2
-        >+++++ +++++									p1 = 10
-        >												
-    ]
-    [>]<												Move to sum
-]
+        -											Subtract 1 cX
+        >+++++ +++++								Add 10 to cXp1
+        <
+    ]                                               Borrow
+        >>                                          Check if complete
+]                                                   Convert string to integer
