@@ -2,7 +2,7 @@
 <[<]>>												Move to c1
 
 [													
-	<                                               Move to left most non-zero
+	<                                               Move to left most nonzero
     [
         -											Subtract 1 cX
         >+++++ +++++								Add 10 to cXp1
